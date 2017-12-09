@@ -110,12 +110,14 @@ div img{
 }
 
 #showcase h1{
-	margin-left:-30%;
+	font-size: 80px;
+	padding-left: 150%;
+	margin:auto;	
 	color: #faf5f5ad;
 	font-family:Open -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	font-weight: 400;
 	position:absolute;
-	text-align:center;
+	
 }
 
 ul .info{
@@ -133,10 +135,12 @@ ul .info{
   
   .wrapper{
 	box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
+	margin-left:2.5%;
   }
   
   .wrapper > *{
 	padding: 1em;
+	
   }
   
   .company-info{
@@ -164,9 +168,10 @@ ul .info{
   /* FORM STYLES */
   
   .contact form{
+	
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-gap:20px;
+	grid-gap:10px;
 	
   }
   
@@ -185,7 +190,7 @@ ul .info{
   
   .contact form button, .contact form input, .contact form textarea{
 	width:100%;
-	padding:1px;
+	padding:2px;
 	border:1px solid #c9e6ff;
   }
   
