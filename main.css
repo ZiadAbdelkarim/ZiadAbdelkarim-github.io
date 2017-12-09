@@ -111,7 +111,7 @@ div img{
 
 #showcase h1{
 	font-size: 80px;
-	padding-left: 150%;
+	padding-left: 190%;
 	margin:auto;	
 	color: #faf5f5ad;
 	font-family:Open -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -135,7 +135,8 @@ ul .info{
   
   .wrapper{
 	box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
-	margin-left:2.5%;
+	margin-left:4.5%;
+	width:100%;
   }
   
   .wrapper > *{
@@ -190,7 +191,7 @@ ul .info{
   
   .contact form button, .contact form input, .contact form textarea{
 	width:100%;
-	padding:2px;
+	padding:4px;
 	border:1px solid #c9e6ff;
   }
   
