@@ -1,24 +1,118 @@
 
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
 
 	<head>
 		<title>Ziad</title>
+
+		<link rel="shortcut icon" href="\Users\thezk\Documents\GitHub\ZiadAbdelkarim-github.io\Images\logoblack.png" />
+		<!-- StyleSheet-->
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">	 
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 		<link href= "main.css" rel="stylesheet" type ="text/css"/>
+
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="keywords" content="ziad, abdelkarim, ziad abdelkarim, Ziad, Abdelkarim">
 	</head>
 
 	<body>
-		<h1>Ziad Abdelkarim</h1>
-		<ul> 
-			<li>Home</li>
-			<li><a href="About Me.html">About Me</a></li>
-			<li><a href="Contact Me.html">Contact Me</a></li>
+		<header>
+			<!-- Navigation Bar -->			
+				<nav class="navbar navbar-fixed-top is-scrolling" >
+					<div class="container">
+						<div class="row">
+							<div class"navbar-header">
+								<div class="col-md-12">
+									<a href="#first" class="navbar-brand scrollto"><span><img class="logo" src= "Images\logowhite2.png"></img></span></a>
+								</div>
+							</div>
+						</div>
+						<nav class="list navbar-nav">
+							<ul>
+								<li><a href="#first">Home<a/></li></span>
+								<li><a href="#about">About</a></li>
+								<li><a href= "#contact">Contact</a></li>
+							</ul>
+						</nav>
+					</div>
+				</nav>
+			 <!-- Showcase + Image -->
+			<section id="first">
+				<div class="gradient">		
+				<div id="showcase" class="col-md-12">					
+					<div class="row">	
+							<div class-"bg-image"><img src="https://static.pexels.com/photos/248515/pexels-photo-248515.png"></div>					
+						<div class="container">							
+							<div class="col-md-2 mx-auto">
+								<h1>WELCOME</h1>
+							</div>							
+							</div>
+						</div>
+					</div>
+				</div>		
+			</section>
+		</header>		
 
-		</ul>
-		<img src="https://pbs.twimg.com/profile_images/878206207043018752/vDxd9GDL_400x400.jpg"><br>	
-		<h3>Hey its me Ziad</h3><br>
-		<p>ASU student</p>
-		<a href="https://twitter.com/ItsNotZiad"> <strong>MY TWITTER</strong> </a>
+		<!-- ABOUT -->
+		<section id="about">
+
+		</section>
+
+		<!-- CONTACT -->
+		<section id="contact">
+			<div class="container">    
+				<div class="wrapper">
+				  <div class="company-info">
+					  <h2 class="mx-auto">Ziad Abdelkarim</h2>
+					<ul class="info mx-auto">					  
+					  <li><i class="fa fa-phone"></i>  (480)-359-8550</li>
+					  <li><i class="fa fa-envelope"></i>  zabdelka@asu.edu</li>
+					</ul>
+				  </div>
+				  <div class="contact">		
+					  <h3>Contact</h3>
+					  <div class="alert">Your message has been sent</div>			
+					<form id="ContactForm">
+					  <p>
+						<label>Name</label>
+						<input type="text" name="name" id="Name" required>
+					  </p>
+					  <p>
+						<label>Company</label>
+						<input type="text" name="company" id="Company">
+					  </p>
+					  <p>
+						<label>Email Address</label>
+						<input type="email" name="email" id="Email" required>
+					  </p>
+					  <p>
+						<label>Phone Number</label>
+						<input type="text" name="phone" id="Phone">
+					  </p>
+					  <p class="full">
+						<label>Message</label>
+						<textarea name="message" rows="5" id="message"></textarea>
+					  </p>
+					  <p class="full">
+						<button type="submit">Submit</button>
+					  </p>
+					</form>
+				  </div>
+				</div>
+			  </div>
+		</section>
+
+		<footer>
+
+		</footer>
+		<script src="https://www.gstatic.com/firebasejs/4.8.0/firebase.js"></script>
+		<script src="main.js"></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 	</body>
 
 </html>
