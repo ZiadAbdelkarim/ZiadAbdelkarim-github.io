@@ -252,11 +252,11 @@ footer{
 
 #about img{
 	border-image-repeat: no-repeat;
-	width:350px;
+	width:325px;
 	height:375px;
 	position:center;
 	size:cover;
-	border:blue;
+	border-block-end:blue;
 }
 
 
