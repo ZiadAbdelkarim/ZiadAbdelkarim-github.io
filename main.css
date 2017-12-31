@@ -282,13 +282,17 @@ footer{
 
 @media(min-width: 700px){
 	#about p{
-		margin-left:-50px;
-		padding: 40px 60px 20px 0px;	
+		margin-left:-50px;			
 	}
 
-	.second{
-		margin-top:-100px;
-		padding-top:5px;
+	#about .bolded{
+		padding: 50px 60px 20px 0px;
+	}
+
+
+
+	#about .second{		
+		padding: 5px 60px 20px 0px;
 	}
 }
 
