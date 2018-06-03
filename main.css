@@ -2,7 +2,10 @@
 	box-sizing: border-box;
 	
   }
-  
+	
+section {
+	padding-top: 3em;
+}	
 
 body {
 	overflow-x:hidden;
@@ -25,6 +28,9 @@ body {
 	
 }
 
+.bg-main{
+	background-color:#3f5267;
+}
 
 header {
 	border-bottom:#e8491d;
@@ -48,11 +54,13 @@ header a:hover{
 }
 
 
+
 img{
 	
 	display:block;
 	width:100%;
 	height:auto;
+	
 }
 
 
@@ -75,19 +83,30 @@ header a{
 header ul{
 	margin:0;
 	padding:0;
-	float:right;
+	/*float:right;*/
 }
 
 header li{
+	
 	display:inline;
 	font-family: 'Poppins';
 	font-size: 20px;
-	padding: 0 10px 0 10px;
+	padding: 10px 10px 5px 10px;
 }
 
-.list{
-	float:right;
+.nav-link {
+	color: #fff !important;
 }
+
+.nav-link:hover {
+	
+		color:#cccccc !important;
+		font-weight:10;
+		text-decoration:none;
+	
+}
+
+
 
 #showcase {
 	
@@ -238,6 +257,11 @@ ul .info{
 	#first h1{
 		padding-top:3.5em;
 	}
+
+	li .nav-item {
+		margin-left:25px;
+		padding-left: 25px;
+	}
 }
 
 footer{
@@ -294,6 +318,7 @@ footer{
 	#about .second{		
 		padding: 5px 60px 20px 0px;
 	}
+
 }
 
 .second{
@@ -302,3 +327,87 @@ footer{
 
 
 
+#Projects h1{
+	width:200px;
+	border-bottom: 8px solid #3666c0;
+	padding: 15px 0 5px 0;
+	font-weight:350;
+	font-size:3em;
+	margin-bottom: 50px;
+	
+}
+
+.navbar {
+	float:right;
+}
+
+.wrapper-box {
+	box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
+	background-color: #f9feff;
+	height: 32em;
+	margin-bottom: 2em;
+}
+  
+.wrapper-box > *{
+	padding: 1em;
+	padding-bottom: 0em;	
+}
+
+@media(min-width:700px){
+	.wrapper-box{
+	 
+	  
+	}
+  
+	.wrapper-box > *{
+		padding:1em;
+		padding-bottom: 0em;
+	}
+}
+
+#Projects .soon{
+	background-image: url("Images/ComingSoon.jpg");
+	height:32em;
+	width:auto; 	
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	opacity:.65;
+}
+
+#Projects h2{
+	padding-top:.5em;
+	padding-bottom:0em !important;
+	margin-bottom:0em;
+	height:2em;
+}
+
+img .game{
+	border-image-repeat: no-repeat;
+	max-height:2em;
+	width:auto;	
+	margin-bottom:0em;
+	padding-bottom:0em !important;
+}
+
+.dload {	
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  font-size: 16px;
+  cursor: pointer;
+	font-size: 20px;
+	display:block;
+  margin:0 auto;
+}
+
+.dload:hover {
+  background-color: RoyalBlue;
+}
+
+#Projects p{
+	margin-bottom:0em;
+	padding-bottom:2.5px;
+	line-height: 1.25em;
+}
